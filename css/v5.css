@@ -1,0 +1,54 @@
+body {
+  position: relative;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+.backgroundVideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 0;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  body {
+    background: url("../img/bg-mobile-fallback.jpg") #002e66 no-repeat center
+      center scroll;
+    background-position: cover;
+  }
+  body video {
+    display: none;
+  }
+}
+
+.navbar {
+    background-color:rgba(0,0,0,0.01)
+}
+
+.wv-font-logo {
+    margin: 0em 5em 0em 5em;
+
+}
+
+.wv-font-logo .w-font {
+  font: normal 800 44px Alegreya Sans SC, sans-serif;
+  margin: 0em 0em 0em 1em;
+  z-index: 2;
+}
+
+.wv-font-logo .dot-font {
+  font: normal 900 44px Alegreya Sans SC, sans-serif;
+  margin: 0em 0em 0em 0.1em;
+  z-index: 2;
+}
+
+.wv-font-logo .v-font {
+  font: italic 100 44px Alegreya Sans SC, sans-serif;
+  margin: 0em 1em 0em 0em;
+  z-index: 2;
+}
