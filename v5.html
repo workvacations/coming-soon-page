@@ -1,97 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Page Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="favicon_io/site.webmanifest">
+  <!-- Page Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
+  <link rel="manifest" href="favicon_io/site.webmanifest" />
 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <!-- Alegreya Sans SC, sans-serif -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,700;0,800;0,900;1,100;1,300;1,700;1,800;1,900&display=swap" />
+  <!-- Alegreya Sans, sans-serif -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" />
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,700;0,800;0,900;1,100;1,300;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="styles/dark-scheme.css" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" href="styles/light-scheme.css"
+    media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 
-    <!-- Custom styles for this template -->
-    <link href="css/v5.css" rel="stylesheet">
-
-    <!-- Page Title -->
-    <title>Work, Vacations!</title>
-
+  <!-- Page Title -->
+  <title>Work Vacations!</title>
 </head>
 
 <body>
+  <!-- Video Credits
+        Created by https://www.pexels.com/@cottonbro
+        https://www.pexels.com/video/a-woman-using-her-laptop-computer-outdoors-2795167/
+     -->
+  <video playsinline autoplay muted loop class="backgroundVideo" id="lightVideo">
+    <source
+      src="https://player.vimeo.com/external/353535276.hd.mp4?s=1e5ba121b7d7a658983ab2c7f6c88707e3ff9c92&profile_id=175&oauth2_token_id=57447761"
+      type="video/mp4" />
+  </video>
 
-    <video playsinline autoplay muted loop class="backgroundVideo">
-        <source
-            src="https://player.vimeo.com/external/353535276.hd.mp4?s=1e5ba121b7d7a658983ab2c7f6c88707e3ff9c92&profile_id=175&oauth2_token_id=57447761"
-            type="video/mp4">
-    </video>
+  <!-- Video Credits
+        Created by https://www.pexels.com/@yaroslav-shuraev
+        https://www.pexels.com/video/4154535/
+     -->
+  <video playsinline autoplay muted loop class="backgroundVideo" id="darkVideo">
+    <source
+      src="https://player.vimeo.com/external/406227425.hd.mp4?s=603e5fce0c4476f965738330521c0efc8a8389c0&profile_id=175&oauth2_token_id=57447761"
+      type="video/mp4" />
+  </video>
 
-    <nav class="navbar navbar-expand-lg ">
-        <div class="wv-font-logo d-flex" href="_#">
-            <span class="w-font">Work</span>
-            <span class="dot-font">.</span>
-            <span class="v-font">Vacations</span>
-        </div>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <div class="wv-font-logo d-flex" href="_#">
+        <span class="w-font-logo">Work</span>
+        <span class="dot-font-logo">.</span>
+        <span class="v-font-logo">Vacations</span>
+      </div>
+    </div>
+  </nav>
 
-        <!-- <div class="container-fluid">
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
-            </div>
-        </div>
-    </nav>
-
-
-    <!-- Optional JavaScript -->
-    <!-- Popper.js first, then Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-        crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <!-- Popper.js first, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

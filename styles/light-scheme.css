@@ -1,0 +1,9 @@
+@import "common.css";
+
+body {
+  background-color: white;
+  color: black;
+}
+  
+#lightVideo {display:block;}
+#darkVideo {display:none;}
